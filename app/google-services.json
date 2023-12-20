@@ -1,7 +1,7 @@
 {
   "project_info": {
-    "project_number": "108293983835",
-    "project_id": "kotlin-todo-33c15",
+    "project_number": "62771350231",
+    "project_id": "kotlintodo-cb5c5",
     "storage_bucket": "kotlin-todo-33c15.appspot.com"
   },
   "client": [
@@ -20,7 +20,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA9UoyeuMvhNsoUnsmgYL7YFfuwjkinPXQ"
+          "current_key": "AIzaSyBmCaQaK9A_MQAsR-o1S6aB6FBd_EhNEF0"
         }
       ],
       "services": {

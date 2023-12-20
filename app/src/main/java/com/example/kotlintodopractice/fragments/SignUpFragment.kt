@@ -19,6 +19,8 @@ class SignUpFragment : Fragment() {
     private lateinit var mAuth: FirebaseAuth
     private lateinit var binding: FragmentSignUpBinding
 
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -72,3 +74,5 @@ class SignUpFragment : Fragment() {
         mAuth = FirebaseAuth.getInstance()
     }
 }
+
+
