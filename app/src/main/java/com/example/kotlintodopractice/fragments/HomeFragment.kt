@@ -84,7 +84,7 @@ class HomeFragment : Fragment(), ToDoDialogFragment.OnDialogNextBtnClickListener
                 toDoItemList.clear()
                 for (taskSnapshot in snapshot.children) {
                     val todoTask =
-                        taskSnapshot.key?.let { ToDoData(it, taskSnapshot.value.toString()) }
+                        taskSnapshot.key?.let { ToDoData(it, taskSnapshot.value.toString())}
 
                     if (todoTask != null) {
                         toDoItemList.add(todoTask)
